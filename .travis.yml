@@ -1,1 +1,5 @@
 language: c
+
+compiler: gcc
+
+script: gcc -o ./ssb_sprom/ssb_sprom -i ./ssb_sprom/ssb_sprom.c
